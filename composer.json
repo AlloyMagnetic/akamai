@@ -6,6 +6,12 @@
   "homepage": "https://github.com/d8-contrib-modules/akamai",
   "license": "GPL-2.0+",
   "minimum-stability": "dev",
+  "repositories": [
+    {
+      "url": "https://github.com/tarik817/AkamaiOPEN-edgegrid-php-client.git",
+      "type": "git"
+    }
+  ],
   "require": {
     "akamai-open/edgegrid-auth": "~1.0.1",
     "akamai-open/edgegrid-client": "~1.0.0",
